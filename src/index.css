@@ -10,81 +10,82 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 210 100% 15%;
+    --foreground: 210 40% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 100% 15%;
+    --card-foreground: 210 40% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 100% 15%;
+    --popover-foreground: 210 40% 20%;
 
-    --primary: 194 100% 85%;
-    --primary-foreground: 210 100% 15%;
+    --primary: 200 100% 40%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 194 50% 95%;
-    --secondary-foreground: 210 100% 25%;
+    --secondary: 200 20% 96%;
+    --secondary-foreground: 210 40% 30%;
 
-    --muted: 194 50% 95%;
-    --muted-foreground: 210 50% 45%;
+    --muted: 200 20% 96%;
+    --muted-foreground: 210 20% 50%;
 
-    --accent: 194 50% 90%;
-    --accent-foreground: 210 100% 25%;
+    --accent: 200 30% 92%;
+    --accent-foreground: 210 40% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 194 30% 88%;
-    --input: 194 30% 88%;
-    --ring: 194 100% 75%;
+    --border: 200 25% 88%;
+    --input: 200 25% 88%;
+    --ring: 200 100% 50%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 194 100% 85%;
-    --sidebar-foreground: 210 100% 15%;
-    --sidebar-primary: 0 0% 98%;
-    --sidebar-primary-foreground: 194 100% 75%;
-    --sidebar-accent: 194 80% 75%;
-    --sidebar-accent-foreground: 210 100% 15%;
-    --sidebar-border: 194 80% 80%;
-    --sidebar-ring: 194 100% 70%;
+    --sidebar-background: 200 30% 92%;
+    --sidebar-foreground: 210 40% 20%;
+    --sidebar-primary: 200 100% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 100% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 200 25% 85%;
+    --sidebar-ring: 200 100% 50%;
   }
 
   .dark {
-    --background: 210 100% 5%;
-    --foreground: 194 50% 95%;
+    --background: 210 40% 8%;
+    --foreground: 200 20% 90%;
 
-    --card: 210 100% 8%;
-    --card-foreground: 194 50% 95%;
+    --card: 210 40% 10%;
+    --card-foreground: 200 20% 90%;
 
-    --popover: 210 100% 8%;
-    --popover-foreground: 194 50% 95%;
+    --popover: 210 40% 10%;
+    --popover-foreground: 200 20% 90%;
 
-    --primary: 194 100% 75%;
-    --primary-foreground: 210 100% 15%;
+    --primary: 200 100% 60%;
+    --primary-foreground: 210 40% 10%;
 
-    --secondary: 210 80% 12%;
-    --secondary-foreground: 194 50% 90%;
+    --secondary: 210 30% 15%;
+    --secondary-foreground: 200 20% 85%;
 
-    --muted: 210 80% 12%;
-    --muted-foreground: 194 30% 65%;
+    --muted: 210 30% 15%;
+    --muted-foreground: 200 15% 60%;
 
-    --accent: 210 80% 15%;
-    --accent-foreground: 194 50% 90%;
+    --accent: 210 30% 18%;
+    --accent-foreground: 200 20% 85%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 210 80% 15%;
-    --input: 210 80% 15%;
-    --ring: 194 100% 70%;
-    --sidebar-background: 210 100% 8%;
-    --sidebar-foreground: 194 50% 95%;
-    --sidebar-primary: 194 100% 75%;
-    --sidebar-primary-foreground: 210 100% 15%;
-    --sidebar-accent: 210 80% 15%;
-    --sidebar-accent-foreground: 194 50% 95%;
-    --sidebar-border: 210 80% 15%;
-    --sidebar-ring: 194 100% 70%;
+    --border: 210 30% 18%;
+    --input: 210 30% 18%;
+    --ring: 200 100% 60%;
+
+    --sidebar-background: 210 40% 10%;
+    --sidebar-foreground: 200 20% 90%;
+    --sidebar-primary: 200 100% 60%;
+    --sidebar-primary-foreground: 210 40% 10%;
+    --sidebar-accent: 210 30% 18%;
+    --sidebar-accent-foreground: 200 20% 90%;
+    --sidebar-border: 210 30% 18%;
+    --sidebar-ring: 200 100% 60%;
   }
 }
 
@@ -105,16 +106,16 @@ All colors MUST be HSL.
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(194 50% 95%);
+  background: hsl(200 20% 96%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(194 80% 75%);
+  background: hsl(200 100% 40%);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(194 100% 70%);
+  background: hsl(200 100% 35%);
 }
 
 /* React Quill Editor Styles */
@@ -125,17 +126,17 @@ All colors MUST be HSL.
 }
 
 .ql-toolbar {
-  border-top: 1px solid hsl(194 30% 88%);
-  border-left: 1px solid hsl(194 30% 88%);
-  border-right: 1px solid hsl(194 30% 88%);
+  border-top: 1px solid hsl(200 25% 88%);
+  border-left: 1px solid hsl(200 25% 88%);
+  border-right: 1px solid hsl(200 25% 88%);
   border-bottom: none;
   border-radius: 8px 8px 0 0;
 }
 
 .ql-container {
-  border-bottom: 1px solid hsl(194 30% 88%);
-  border-left: 1px solid hsl(194 30% 88%);
-  border-right: 1px solid hsl(194 30% 88%);
+  border-bottom: 1px solid hsl(200 25% 88%);
+  border-left: 1px solid hsl(200 25% 88%);
+  border-right: 1px solid hsl(200 25% 88%);
   border-top: none;
   border-radius: 0 0 8px 8px;
 }
